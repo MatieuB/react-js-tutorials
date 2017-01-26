@@ -14,7 +14,7 @@ export function deleteTodo(id) {
   });
 }
 
-export function reloadTodos() {
+ export function reloadTodos() {
   // axios("http://someurl.com/somedataendpoint").then((data) => {
   //   console.log("got the data!", data);
   // })
@@ -22,14 +22,14 @@ export function reloadTodos() {
   setTimeout(() => {
     dispatcher.dispatch({type: "RECEIVE_TODOS", todos: [
       {
-        id: 8484848484,
-        text: "Go Shopping Again",
+        id: 113464613,
+        text: "Go Shopping",
         complete: false
       },
       {
-        id: 6262627272,
-        text: "Hug Wife",
-        complete: true
+        id: 235684679,
+        text: "Eat breakfast sandwhich",
+        complete: false
       },
     ]});
   }, 1000);

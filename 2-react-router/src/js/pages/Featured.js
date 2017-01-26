@@ -31,6 +31,7 @@ export default class Featured extends React.Component {
     console.log("featured");
     return (
       <div>
+        <h1>FEATURED</h1>
         <div class="row">
           <div class="col-lg-12">
             <div class="well text-center">
